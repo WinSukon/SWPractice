@@ -1,0 +1,41 @@
+@startuml
+
+' skinparam linetype ortho 
+
+entity "adcacd" as e1 {
+    *id : number <<generated>>
+    --
+    *test : text
+    fghjk : text
+}
+
+entity "adsdfghjk" as e2 {
+    *id : number <<generated>>
+    --
+    *test : text
+    fghjk : text
+}
+
+
+entity "jk" as e3 {
+    *id : number <<generated>>
+    --
+    *test : text
+    fghjk : text
+}
+
+entity "45656k" as e4 {
+    *id : number <<generated>>
+    --
+    *test : text
+    fghjk : text
+}
+
+' e1 |o..o{ e2 crow foot
+
+e1 "1"--"*" e2
+e1 "1"--"*" e3
+e1 "*"--"*" e4
+
+
+@enduml
